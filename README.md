@@ -5,7 +5,9 @@
 # le front-end
 
 Créer un dossier
-A l'interieur de ce dossier, cloner le repository de https://github.com/OpenClassrooms-Student-Center/dwj-projet6.git et suivre les étapes avec le fichier README.md
+A l'interieur de ce dossier, cloner le repository de https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6
+Renommer le dossier Web-Developer-P6 en frontend
+Suivre les étapes avec le fichier README.md
 
 # le back-end
 
@@ -22,7 +24,7 @@ les dépendances nécessaires
 Dans ce fichier, insérer les informations :
 
 #lien vers la base de données mongoDB personnel
-MONGODB_URI = mongodb+srv://USER:PSW@HOST/ <dbname >?retryWrites=true & w=majority
+MONGODB_PATH = mongodb+srv://USER:PSW@HOST/ <dbname >?retryWrites=true & w=majority
 
 #pour remplacer la string "TOKEN_SECRET" par des chiffres
 ACCESS_TOKEN_SECRET = xxxx
