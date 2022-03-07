@@ -23,7 +23,7 @@ les dépendances nécessaires
 
 Dans ce fichier, insérer les informations :
 
-#lien vers la base de données mongoDB personnel
+#indiquer votre lien vers la base de données mongoDB personnel
 MONGODB_PATH = mongodb+srv://USER:PSW@HOST/ <dbname >?retryWrites=true & w=majority
 
 #pour remplacer la string "TOKEN_SECRET" par des chiffres
