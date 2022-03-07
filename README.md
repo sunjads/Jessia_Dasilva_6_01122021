@@ -1,26 +1,35 @@
-Technologies
+# Technologies
+
 • Node.js • Express • MongoBD • Mongoose
 
-Installation
-Cloner le repository
-Installer Node.js
-Installer Angular CLI
-Installer Nodemon
-Installer les dépendences pour les dossiers frontend et backend
-Mettre en place le fichier .env à la racine
+# le front-end
 
-# MongoDB credentials
+Créer un dossier
+A l'interieur de ce dossier, cloner le repository de https://github.com/OpenClassrooms-Student-Center/dwj-projet6.git et suivre les étapes avec le fichier README.md
 
+# le back-end
+
+Dans le dossier créé,
+Cloner le repository à partir de https://github.com/sunjads/Jessia_Dasilva_6_01122021/tree/main/backend
+Aller dans le dossier backend avec le terminal et installer
+les dépendances nécessaires
+'cd backend'
+'npm install'
+'npm install --save -dev nodemon'
+
+# Mettre en place le fichier .env à la racine
+
+Dans ce fichier, insérer les informations :
+
+#lien vers la base de données mongoDB personnel
 MONGODB_URI = mongodb+srv://USER:PSW@HOST/ <dbname >?retryWrites=true & w=majority
 
-# Random secret token
+#pour remplacer la string "TOKEN_SECRET" par des chiffres
+ACCESS_TOKEN_SECRET = xxxx
 
-JWT_SECRET_TOKEN = xxx
+#pour la clé de chiffrement du mail
+CRYPTOJS_KEY = xxxx
 
-# Session code
+# Lancement du server
 
-SECRET_SESSION = xxx
-Lancer le server frontend avec 'ng serve'
-Lancer le server backend avec 'nodemon server'
-"# Jessia_Dasilva_6_01122021" 
-"# Jessia_Dasilva_6_01122021" 
+Lancer le server backend avec 'npm start'
