@@ -16,7 +16,7 @@ exports.findSauces = (req, res) => {
 };
 
 exports.findSaucebyId = (req, res) => {
-  //trouver en particulier une donnée
+  //trouver en particulier une donnée avec :id = paramètre dynamique
   Sauce.findById(req.params.id)
     .then((dbresponse) => {
       res.status(200).json(dbresponse);
